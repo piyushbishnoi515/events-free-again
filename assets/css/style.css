@@ -1083,7 +1083,6 @@ label[for="menuIcon"] {
 .row2{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
     margin-right: -12px;
     flex-direction: row;
 }
