@@ -1024,6 +1024,9 @@
     display: flex;
     align-items: center;
 }
+.gap-10-n{
+    gap: 10px;
+}
 
 .pt-50 {
     padding-top: 50px;
