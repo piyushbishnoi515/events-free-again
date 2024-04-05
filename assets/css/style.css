@@ -1148,7 +1148,7 @@ label[for="menuIcon"] {
     position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    height: 100px;
+    height: 63px;
     display: flex;
     align-items: center;
     top: 0%;
