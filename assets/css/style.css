@@ -375,6 +375,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 
 }
 
@@ -1024,94 +1025,13 @@
     display: flex;
     align-items: center;
 }
-.gap-10-n{
+
+.gap-10-n {
     gap: 10px;
 }
 
 .pt-50 {
     padding-top: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------------------RESPONSIVE------------------------------------------------------ */
-
-
-@media (min-width:576px) {
-    .col-sm-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .go-btn {
-        margin-left: 55px;
-    }
-
-    .gap-0 {
-        gap: 0px;
-    }
-
-    .strate-line::after {
-        content: ' ';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #FFFFFF;
-
-    }
-
-    .strate-line::before {
-        content: ' ';
-        position: absolute;
-        width: 2px;
-        height: 100%;
-        background-color: #FFFFFF;
-
-    }
-
-    .main-text {
-        font-size: 64px;
-        margin-top: 100px;
-    }
-
-    .get-btn {
-        width: 172px;
-
-    }
-
-    .lorem-text-2 {
-        font-size: 48px;
-        line-height: 62px;
-    }
-
-    .explore-tex {
-        font-size: 48px;
-        line-height: 66px;
-    }
-
-    .name-box {
-        font-size: 16px;
-    }
-
-    .the-end {
-        font-size: 14px;
-    }
-
-    .icon-logo {
-        width: 50%;
-    }
 }
 
 /* --------------------navbar------------- */
@@ -1163,6 +1083,74 @@ label[for="menuIcon"] {
 
 /* ---------------------------------------------------------------------------------- */
 
+
+/*------------------------------------RESPONSIVE------------------------------------------------------ */
+
+
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .gap-0 {
+        gap: 0px;
+    }
+.go-btn{
+    margin-bottom: 0%;
+}
+    .strate-line::after {
+        content: ' ';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #FFFFFF;
+
+    }
+
+    .strate-line::before {
+        content: ' ';
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: #FFFFFF;
+
+    }
+
+    .main-text {
+        font-size: 64px;
+        margin-top: 100px;
+    }
+
+    .get-btn {
+        width: 172px;
+
+    }
+
+    .lorem-text-2 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+    .explore-tex {
+        font-size: 48px;
+        line-height: 66px;
+    }
+
+    .name-box {
+        font-size: 16px;
+    }
+
+    .the-end {
+        font-size: 14px;
+    }
+
+    .icon-logo {
+        width: 50%;
+    }
+}
+
 @media (min-width:768px) {
     .md-col-3 {
         width: 25%;
@@ -1179,6 +1167,11 @@ label[for="menuIcon"] {
     .gallery-text {
         margin-top: 0px;
     }
+    .go-btn{
+        margin-bottom: 10px;
+    }
+
+
 
     .main-text {
         font-size: 40px;
@@ -1287,6 +1280,11 @@ label[for="menuIcon"] {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .go-btn {
+        margin-left: 55px;
+        margin-bottom: 0px;
     }
 
     .main-text {
